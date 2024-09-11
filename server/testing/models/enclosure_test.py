@@ -12,6 +12,6 @@ class TestEnclosure:
 
     def test_has_name_and_species(self):
         '''can be instantiated with a name and species.'''
-        a = Enclosure(environment='Phil', open_to_vistors=True)
+        a = Enclosure(environment='Phil', open_to_visitors=True)
         assert a.environment == 'Phil'
         assert a.open_to_visitors == True
